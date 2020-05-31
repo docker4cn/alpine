@@ -1,13 +1,13 @@
 # Alpine
 
-[![Docker Automated Status](https://img.shields.io/docker/cloud/automated/docker4cn/debian.svg)](https://hub.docker.com/r/docker4cn/alpine/builds/)
-[![Docker Build Status](https://img.shields.io/docker/cloud/build/docker4cn/debian.svg)](https://hub.docker.com/r/docker4cn/alpine/builds/)
-[![Docker Stars](https://img.shields.io/docker/stars/docker4cn/debian.svg)](https://hub.docker.com/r/docker4cn/alpine/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/docker4cn/debian.svg)](https://hub.docker.com/r/docker4cn/alpine/)
-[![License](https://img.shields.io/github/license/docker4cn/debian.svg)](https://github.com/yanqd0/docker4cn/alpine/master/LICENSE)
+[![Docker Automated Status](https://img.shields.io/docker/cloud/automated/docker4cn/alpine.svg)](https://hub.docker.com/r/docker4cn/alpine/builds/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/docker4cn/alpine.svg)](https://hub.docker.com/r/docker4cn/alpine/builds/)
+[![Docker Stars](https://img.shields.io/docker/stars/docker4cn/alpine.svg)](https://hub.docker.com/r/docker4cn/alpine/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/docker4cn/alpine.svg)](https://hub.docker.com/r/docker4cn/alpine/)
+[![License](https://img.shields.io/github/license/docker4cn/alpine.svg)](https://github.com/docker4cn/alpine/blob/master/LICENSE)
 
-这是为中国定制的Debian镜像，上游是Docker官方的[alpine](https://hub.docker.com/_/alpine)。
-它是[docker4cn]项目的一个部分。
+这是为中国定制的Alpine镜像，上游是Docker官方的[alpine](https://hub.docker.com/_/alpine)。
+它是[docker4cn]项目的一部分。
 
 [docker4cn]:https://docker-4.cn/
 
@@ -54,4 +54,4 @@ docker pull docker4cn/alpine:3.12-aliyun
 
 如果希望更新、改进，请提[issues]或PR。
 
-[issues]:https://github.com/docker4cn/debian/issues/new
+[issues]:https://github.com/docker4cn/alpine/issues/new
