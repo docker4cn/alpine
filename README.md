@@ -9,6 +9,8 @@
 这是为中国定制的Debian镜像，上游是Docker官方的[alpine](https://hub.docker.com/_/alpine)。
 它是[docker4cn]项目的一个部分。
 
+[docker4cn]:https://docker-4.cn/
+
 ## 定制
 
 Alpine镜像替换为以下源：
