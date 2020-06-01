@@ -33,18 +33,41 @@ Alpine镜像替换为以下源：
 镜像tag的规则是`<版本>-<中国源>`。
 
 ```sh
-docker pull docker4cn/alpine:3.12-aliyun
+docker pull docker4cn/alpine:3.12-tuna
 ```
 
-默认`lastest`使用`tuna`，因为它是Alpine官网展示的首个中国区镜像。
+默认`lastest`使用`tuna`，因为它是Alpine官网展示的最大带宽中国区镜像。
 目前的`latest`是`3.12-tuna`，但它通常不是最合适的源，推荐通过tag选择特定镜像。
 通过`ping <域名>`，找到最近的源，往往会有更好的使用效果。
 
-已支持版本：
+维护中的tag：
 
-- 3.12
-- 3.11
-- 3.10
+- [latest], [3.12-tuna]
+- [3.12-ustc]
+- [3.12-aliyun]
+- [3.12-huawei]
+- [3.11-tuna]
+- [3.11-ustc]
+- [3.11-aliyun]
+- [3.11-huawei]
+- [3.10-tuna]
+- [3.10-ustc]
+- [3.10-aliyun]
+- [3.10-huawei]
+
+[latest]:https://github.com/docker4cn/alpine/blob/master/3.12/tuna/Dockerfile
+[3.12-tuna]:https://github.com/docker4cn/alpine/blob/master/3.12/tuna/Dockerfile
+[3.12-ustc]:https://github.com/docker4cn/alpine/blob/master/3.12/ustc/Dockerfile
+[3.12-aliyun]:https://github.com/docker4cn/alpine/blob/master/3.12/aliyun/Dockerfile
+[3.12-huawei]:https://github.com/docker4cn/alpine/blob/master/3.12/huawei/Dockerfile
+[3.11-tuna]:https://github.com/docker4cn/alpine/blob/master/3.11/tuna/Dockerfile
+[3.11-ustc]:https://github.com/docker4cn/alpine/blob/master/3.11/ustc/Dockerfile
+[3.11-aliyun]:https://github.com/docker4cn/alpine/blob/master/3.11/aliyun/Dockerfile
+[3.11-huawei]:https://github.com/docker4cn/alpine/blob/master/3.11/huawei/Dockerfile
+[3.10-tuna]:https://github.com/docker4cn/alpine/blob/master/3.10/tuna/Dockerfile
+[3.10-ustc]:https://github.com/docker4cn/alpine/blob/master/3.10/ustc/Dockerfile
+[3.10-aliyun]:https://github.com/docker4cn/alpine/blob/master/3.10/aliyun/Dockerfile
+[3.10-huawei]:https://github.com/docker4cn/alpine/blob/master/3.10/huawei/Dockerfile
 
 ## 其它
 
